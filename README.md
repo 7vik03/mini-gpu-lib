@@ -10,6 +10,12 @@ CUDA-like runtime library for mini-gpu. User-facing API.
 - [ ] `mini_device_info()` — Query device properties
 - [ ] `mini_reset()` — Reset GPU state
 
+### Kernel Management
+- [ ] `mini_load_kernel()` — Load kernel binary from file
+- [ ] `mini_unload_kernel()` — Unload kernel
+- [ ] `mini_set_arg()` — Set kernel argument
+- [ ] `mini_get_kernel_info()` — Query kernel properties (registers, shared mem)
+
 ### Memory Management
 - [ ] `mini_malloc()` — Allocate GPU memory
 - [ ] `mini_free()` — Free GPU memory
